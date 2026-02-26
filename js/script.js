@@ -11,7 +11,7 @@ const tempMin = document.querySelector("#temp_min")
 const humidity = document.querySelector("#humidity")
 const wind = document.querySelector("#wind")
 
-const apikey = 'caeee83f43461c654ba2d7a31cea60f9'
+const apikey = ''
 
 search.addEventListener('submit', async (event) => {
     event.preventDefault()
