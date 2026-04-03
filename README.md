@@ -1,34 +1,45 @@
-APP de previsão do tempo
-Aplicação web para consulta de clima em tempo real a partir do nome de uma cidade.
+📌Previsão do Tempo
 
-Descrição
-O projeto permite ao usuário buscar uma cidade e visualizar informações climáticas atualizadas, como temperatura, descrição do clima, umidade, vento e variações de temperatura.
+Aplicação web que permite consultar o clima em tempo real a partir do nome de uma cidade.
 
-Funcionalidades
--Busca por cidade
--Exibição da temperatura atual
--Descrição do clima
--Temperatura máxima e mínima
--Umidade do ar
--Velocidade do vento
--Ícones representando as condições climáticas
+📖 Descrição
+O projeto permite ao usuário buscar uma cidade e visualizar informações climáticas atualizadas, como temperatura, condições do tempo, umidade, vento e variações térmicas.
 
-Tecnologias utilizadas
--HTML
--CSS
--JavaScript
--API OpenWeatherMap
--Font Awesome
+⚙️ Funcionalidades
+Busca por cidade
+Exibição da temperatura atual
+Descrição das condições climáticas
+Temperatura máxima e mínima
+Umidade do ar
+Velocidade do vento
+Ícones dinâmicos representando o clima
 
-Como executar
+🚀 Tecnologias utilizadas
+HTML
+CSS
+JavaScript
+API OpenWeatherMap
+Font Awesome
+
+▶️ Como executar
 Clone o repositório:
--git clone https://github.com/seu-usuario/seu-repositorio.git
-No arquivo script.js, adicione sua chave:
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Adicione sua chave da API no arquivo script.js:
 const apiKey = "SUA_API_KEY";
 
-Este projeto utiliza a API pública do OpenWeatherMap:
-https://openweathermap.org/api
+🧪 Como usar
+Informe a localização no seguinte formato:
+Cidade,Estado,País
 
+Exemplos:
 
+Serra,ES,BR
+São Paulo,São Paulo,Brasil
+Paris,Île-de-France,França
+Shinjuku,Tokyo,Japão
 
-Projeto destinado para fins de estudo.
+🔗 API utilizada
+OpenWeatherMap: https://openweathermap.org/api
+
+📚 Observação
+Projeto desenvolvido para fins de estudo.
